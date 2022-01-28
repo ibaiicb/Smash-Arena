@@ -53,7 +53,7 @@ function altaUsuario() {
         bInstructor=false;
     }
 
-    let oExpReg = /^[\sa-zA-Z]{4,40}$/; 
+    let oExpReg = /^[\sa-zA-Z]{3,40}$/; 
     if(!validaFormularios(sNombreUsuario,oExpReg))
     {
         bValido=false;
@@ -135,7 +135,7 @@ function modificarUsuario() {
         bValido=false;
     }
 
-    let oExpReg = /^[\sa-zA-Z]{4,40}$/; 
+    let oExpReg = /^[\sa-zA-Z]{3,40}$/; 
     if(!validaFormularios(sNombreUsuario,oExpReg))
     {
         bValido=false;
